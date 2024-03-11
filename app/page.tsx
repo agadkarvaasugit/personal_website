@@ -127,14 +127,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={` font-mono opacity-50`}>
-          Hi there, I'm Vaasu, a software engineer with an interest in finance and data science. 
-          For me, the dynamic nature of financial markets presents fascinating challenges, and
-          I'm drawn to the opportunities it offers for analytical exploration. Whether it's 
-          analyzing market trends, developing algorithms for risk assessment, or crafting intuitive 
-          interfaces for financial applications, I find myself constantly engaged in leveraging 
-          computer and data science techniques to extract valuable insights. My projects primarily 
-          revolve around uncovering actionable information from complex datasets, empowering decision-makers
-          with the knowledge they need to navigate the ever-evolving financial landscape.
+         {" Hi there, I'm Vaasu, a software engineer with an interest in finance and data science. For me, the dynamic nature of financial markets presents fascinating challenges, and I'm drawn to the opportunities it offers for analytical exploration. Whether it's analyzing market trends, developing algorithms for risk assessment, or crafting intuitive interfaces for financial applications, I find myself constantly engaged in leveraging computer and data science techniques to extract valuable insights. My projects primarily revolve around uncovering actionable information from complex datasets, empowering decision-makerswith the knowledge they need to navigate the ever-evolving financial landscape."}
           </p>
         </a>
       </div>
