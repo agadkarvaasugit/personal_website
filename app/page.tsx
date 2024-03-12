@@ -9,7 +9,7 @@ export default function Home() {
           vaasu agadkar&nbsp;
           <code className="font-mono font-bold"> 🖥️</code>
         </p>
-        <div className="fixed bottom-0 left-0 flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="top-10 left-0 flex h-44 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://www.linkedin.com/in/agadkarvaasu/"
@@ -27,7 +27,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="fixed bottom-0 left-0 flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className=" flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://github.com/agadkarvaasugit"
@@ -45,7 +45,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="fixed bottom-0 left-0 flex h-41 w-full items-end justify-center bg-gradient-to-t  lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="flex h-41 w-full items-end justify-center bg-gradient-to-t  lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-4 p-8 lg:pointer-events-auto lg:p-0"
             href="https://drive.google.com/file/d/1ck-2J0XzjF2F2Af_50_nEHin_sTuB2tq/view?usp=sharing"
@@ -63,7 +63,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className="fixed bottom-0 left-0 flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="  flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://linktr.ee/agadkarvaasucontact"
@@ -102,16 +102,17 @@ export default function Home() {
         </div>
       </div>
       <div className="mb-102 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
-        <div className="fixed bottom-0 left-0 flex h-41 w-full items-end justify-center  from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <Image
-            className="relative "
-            src="/moving.gif"
-            alt="Next.js Logo"
-            width={400}
-            height={500}
-            priority
-          />
-        </div>
+  <div className="flex justify-center">
+    <Image
+      className="relative"
+      src="/moving.gif"
+      alt="Next.js Logo"
+      width={400}
+      height={500}
+      priority
+    />
+  </div>
+
         <a
           className="group rounded-lg border border-transparent px-20 py-20 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-500 hover:dark:bg-neutral-800/30"
           target="_blank"
@@ -127,7 +128,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={` font-mono opacity-50`}>
-         {" Hi there, I'm Vaasu, a software engineer with an interest in finance and data science. For me, the dynamic nature of financial markets presents fascinating challenges, and I'm drawn to the opportunities it offers for analytical exploration. Whether it's analyzing market trends, developing algorithms for risk assessment, or crafting intuitive interfaces for financial applications, I find myself constantly engaged in leveraging computer and data science techniques to extract valuable insights. My projects primarily revolve around uncovering actionable information from complex datasets, empowering decision-makerswith the knowledge they need to navigate the ever-evolving financial landscape."}
+          {" Hi there, I'm Vaasu, a software engineer with an interest in finance and data science. I love the dynamic nature of financial markets  and fascinating challenges that come along with it. Whether it's analyzing market trends, developing algorithms for risk assessment, or crafting intuitive interfaces for financial applications, I find myself constantly engaged in leveraging computer and data science techniques to extract valuable insights. My projects primarily revolve around uncovering actionable information from complex datasets, empowering decision-makers with the knowledge they need to navigate the ever-evolving financial landscape."}
           </p>
         </a>
       </div>
