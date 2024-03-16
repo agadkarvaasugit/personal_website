@@ -11,7 +11,7 @@ export default function Home() {
         </p>
         <div className="top-10 left-0 flex h-44 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://www.linkedin.com/in/agadkarvaasu/"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,9 +27,9 @@ export default function Home() {
             />
           </a>
         </div>
-        <div className=" flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://github.com/agadkarvaasugit"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="flex h-41 w-full items-end justify-center bg-gradient-to-t  lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="pointer-events-none flex place-items-center gap-4 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-4 p-8 lg:pointer-events-auto lg:p-0"
             href="https://drive.google.com/file/d/1ck-2J0XzjF2F2Af_50_nEHin_sTuB2tq/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div className="  flex h-41 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://linktr.ee/agadkarvaasucontact"
             target="_blank"
             rel="noopener noreferrer"
